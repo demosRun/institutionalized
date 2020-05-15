@@ -1,0 +1,88 @@
+<template lang="pug">
+.bottom_copyright1.clearfix
+  .clearfix.w1200
+    .fl.left
+      h2
+        i.icon
+        | 一块帮老百姓办事的留言板
+      p
+        a(href='http://leaders.people.com.cn/n1/2019/0903/c178291-31334400.html', target='_blank') 关于领导留言板
+        |   
+        a(href='http://www.people.com.cn', target='_blank') 人民网
+        |   
+        a(href='http://leaders.people.com.cn/n1/2017/0103/c409148-28995855.html', target='_blank') 加入我们
+        |   
+        a(href='http://leaders.people.com.cn/GB/178291/218130/414212/index.html', target='_blank') 客户端下载
+        br
+        | 热线：4008-100-300（不受理投诉、留言）
+        br
+        | 邮箱：leader@people.cn
+    .fl.center
+      h2 帮助中心
+      ul.clearfix
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=1', target='_blank') 新用户必读
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=2', target='_blank') 服务协议
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=3', target='_blank') 留言基础操作
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=4', target='_blank') 企业认证
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=5', target='_blank') 常见问题
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=6', target='_blank') 留言如何迅速得到办理
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=7', target='_blank') 联系我们
+        li
+          a(href='http://leaders.people.com.cn/GB/178291/218130/396788/index.html', target='_blank') 各地如何开通办理权限
+    .fr.right.clearfix
+      p
+        img(src='http://liuyan.people.com.cn/NMediaFile/2019/0823/MAIN201908231531441776047088625.png', width='104', border='0')
+      p
+        img(src='http://liuyan.people.com.cn/NMediaFile/2019/0823/MAIN201908231531438287320451639.png', width='104', border='0')
+</template>
+
+<style lang="less">
+.clearfix:before,.clearfix:after {content:"";display:table;}
+.clearfix:after{clear:both;overflow:hidden;}
+.clearfix{zoom:1;}
+.bottom_copyright1{ background:#2f4359; padding:35px 0; margin-top:45px;}
+.left{ width:560px;}
+.right{ width:120px; text-align:center; padding-top:20px; color:#f0f4f8;}
+.right img{ display:block; margin-bottom:8px;}
+.fl p{ font-size:14px; color:#b3bcc7; line-height:200%; padding:25px 0 0;}
+.fl p a:link, .fl p a:visited,.fl p a:hover{ color:#b3bcc7;}
+.fl ul{ margin:25px 0 0;}
+.fl ul li{ float:left; width:170px;font-size:14px; color:#b3bcc7; line-height:200%;}
+.fl ul li a:link,.fl ul li a:visited,.fl ul li a:hover{color:#b3bcc7;}
+.fl h2{ height:37px; line-height:37px; font-size:18px; color:#f0f4f8;}
+.bottom_copyright2{ background:#243344; height:48px;}
+.bottom_copyright2 .fl{ color:#727a83; line-height:48px;}
+.bottom_copyright2 .fr select{ width:170px; height:22px; margin:15px 0 0 0; text-align:right;}
+.fl h2 i.icon{
+	width: 37px;
+  height: 37px;
+	display: inline-block;
+	background: url(http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/bottom_copyright_title_icon.png) center center no-repeat;
+	margin-right: 10px;
+	vertical-align: middle
+}
+.right p {
+  float: left;
+  width: 120px;
+  text-align: center;
+}
+.fl ul li{
+	width: 150px;
+}
+.left {
+  width: 410px;
+}
+.center {
+  width: 520px;
+}
+.right {
+  width: 260px;
+}
+</style>

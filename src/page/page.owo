@@ -1,0 +1,270 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  //- 题图
+  img.top-image(src="@|bg.jpg|")
+  plug(_name="module31" _src="https://template.owo.ink/cba2d88ec2acaaea.owo")
+  .h40
+  .w1000
+    .title 编者按
+    p.editer 网民留言办理已成为各地网上群众路线工作开展的新抓手，备受各级党政机关、各地领导关注。在此背景下，截至目前，全国共有山西、安徽、山东、河南、广东、天津、云南、吉林、四川、辽宁、广西、浙江、江西、陕西、湖北、青海、宁夏、西藏、贵州、上海、甘肃、海南、北京、黑龙江、河北、江苏等26省区市以“红头文件”形式，建立起回复办理人民网《领导留言板》留言的固定工作机制。
+    //- 地图
+    .chart-map-box
+      .chart-map#chartMap
+      //- 右侧信息栏
+      .right-box
+        img.map-icon(src="@|map.png|")
+        h1 江苏
+        p
+    .title 全国省区市留言办理机制一览
+    //- 地区列表
+    ul.city-list
+      li
+        .city 江苏
+        .conn
+          h1 《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》
+          p 2019年4月，江苏省政府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有关部门单位要增强使命感和责任感，及时开展和改进人民网网民办理和公开回复工作。 <a href="#" target="_blank">更多...</a>
+      li
+        .city 江苏
+        .conn
+          h1 《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》
+          p 2019年4月，江苏省政府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有关部门单位要增强使命感和责任感，及时开展和改进人民网网民办理和公开回复工作。 <a href="#" target="_blank">更多...</a>
+      li
+        .city 江苏
+        .conn
+          h1 《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》
+          p 2019年4月，江苏省政府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有关部门单位要增强使命感和责任感，及时开展和改进人民网网民办理和公开回复工作。 <a href="#" target="_blank">更多...</a>
+      li
+        .city 江苏
+        .conn
+          h1 《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》
+          p 2019年4月，江苏省政府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有关部门单位要增强使命府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有感和责任感，及时开展和改进人民网网民办理和公开回复工作。 <a href="#" target="_blank">更多...</a>
+      li
+        .city 江苏
+        .conn
+          h1 《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》
+          p 2019年4月，江苏省政府信访局下发《关于进一步加强和改进人民网“地方领导留言板”办理工作的通知》，要求全省各设区市信访局、省有关部门单位要增强使命感和责任感，及时开展和改进人民网网民办理和公开回复工作。 <a href="#" target="_blank">更多...</a>
+    plug(_name="module35" _src="https://template.owo.ink/67375e27bd1ad8d9.owo")
+  plug(_name="difang" _src="./src/moudle/difang.owo")
+  plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  var editData = {
+    "北京": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作。<a href="#" target="_blank">［详细］</a>',
+    "天津": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作',
+    "河北": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作。<a href="#" target="_blank">［详细］</a>',
+    "山西": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作',
+    "内蒙古": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作。<a href="#" target="_blank">［详细］</a>',
+    "吉林": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作',
+    "黑龙江": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作。<a href="#" target="_blank">［详细］</a>',
+    "上海": '扎实做好脱贫帮扶和对口支援工作。认真贯彻中央扶贫开发工作会议精神，加快制定对口帮扶河北贫困地区发展的落实方案，安排相关区开展对口帮扶，帮助贫困县改善生产生活条件。继续做好援疆、援藏、援青等工作，实施好产业、教育等领域援助项目，完成京蒙对口帮扶年度任务，做好南水北调水源区对口协作',
+  }
+  var option = {
+    tooltip: {
+      trigger: "item",
+      formatter: function (params) {
+        // console.log(params)
+        // if (params.name == "南海诸岛") return;
+        return params.name;
+      },
+      confine: true,
+      // triggerOn: 'click',
+      // alwaysShowContent:true,
+      position: "bottom"
+    },
+    series: [
+      {
+        name: "数据",
+        type: "map",
+        mapType: "china",
+        layoutCenter: ["50%", "50%"],
+        // layoutSize: 750,
+        itemStyle: {
+          normal: {
+            areaColor: "#92a1cd",
+            borderWidth: 0.2,
+            borderColor: "#fff"
+          },
+          emphasis: {
+            label: { show: false }
+          }
+        }
+      }
+    ]
+  };
+  module.exports = {
+    data: {
+      myChart: null,
+      activeIndex: null,
+      activeAutoPlayIndex: 0,
+      cityList: []
+    },
+    created: function () {
+      this.data.myChart = echarts.init(document.getElementById('chartMap'));
+      this.data.myChart.setOption(option);
+      // 点击选中事件
+      this.data.myChart.on("click", (params) => {
+        // console.log(params.name)
+        this.activeCity(params.name)
+      });
+      // 根据填的城市列表算城市列表
+      this.data.cityList = Object.keys(editData)
+      this.activeCity('北京')
+      // 自动切换城市
+      setInterval(() => {
+        let city = this.data.cityList[++this.data.activeAutoPlayIndex]
+        
+        if (!city) {
+          this.data.activeAutoPlayIndex = 0
+          city = this.data.cityList[this.data.activeAutoPlayIndex]
+        }
+        this.activeCity(city)
+      }, 3000);
+    },
+    activeCity: function (cityName) {
+      console.log(cityName)
+      const map = echarts.getMap('china')
+      // 更换右侧信息
+      if (editData[cityName]) {
+        this.query('.right-box h1').innerHTML = cityName
+        this.query('.right-box p').innerHTML = editData[cityName]
+        this.query('.right-box').style.display = 'block'
+      } else {
+        this.query('.right-box').style.display = 'none'
+      }
+      if (map) {
+        const cityList = map.geoJson.features
+        for (let index = 0; index < cityList.length; index++) {
+          const element = cityList[index];
+          if (element.properties.name == cityName) {
+            this.activeMapIndex(index)
+            break
+          }
+        }
+      }
+    },
+    activeMapIndex: function (index) {
+      if (this.data.activeIndex !== null) {
+        this.data.myChart.dispatchAction({
+          type: "hideTip",
+          dataIndex: this.data.activeIndex
+        });
+        this.data.myChart.dispatchAction({
+          type: "downplay",
+          dataIndex: this.data.activeIndex
+        });
+      }
+      this.data.myChart.dispatchAction({
+        type: "showTip",
+        dataIndex: index
+      });
+      this.data.myChart.dispatchAction({
+        type: "highlight",
+        dataIndex: index
+      });
+      this.data.activeIndex = index
+    }
+  }
+</script>
+
+
+<style lang="less">
+.top-image {
+  width: 100%;
+  display: block;
+}
+.title {
+  font-size: 30px;
+  color: #d53444;
+  border-left: 3px solid #d53444;
+  padding-left: 10px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+.editer {
+  font-size: 18px;
+  line-height: 1.7;
+  text-indent: 2em;
+  padding: 20px;
+  color: #393f44;
+}
+.chart-map-box {
+  height: 600px;
+  position: relative;
+  .chart-map {
+    width: 750px;
+    height: 100%;
+  }
+  .map-icon {
+    position: absolute;
+    left: -13px;
+    top: -25px;
+  }
+}
+.right-box {
+  background-color: #eeeef0;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  top: 20%;
+  width: 240px;
+  z-index: 99;
+  h1 {
+    position: absolute;
+    left: 80px;
+    color: #d53444;
+  }
+  p {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  a {
+    color: #d53444;
+  }
+  a:hover {
+    color: #d53444;
+  }
+}
+.city-list {
+  a {
+    color: #d53444;
+  }
+  a:hover {
+    color: #d53444;
+  }
+  .city {
+    background-image: url('@|city-bg.png|');
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    text-align: center;
+    line-height: 140px;
+    color: white;
+    font-size: 30px;
+    top: -5px;
+  }
+  h1 {
+    font-size: 20px;
+    line-height: 50px;
+    font-family: "Microsoft YaHei";
+  }
+  li {
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+  }
+  li:nth-last-child(1) {
+    border-bottom: none;
+  }
+  .conn {
+    margin: 50px 180px;
+  }
+  p {
+    line-height: 1.7;
+    font-size: 14px;
+    text-indent: 2em;
+  }
+}
+</style>
